@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout2</title>
+    <style>
+      .wrapper {
+        background-color: rgb(225 238 217);
+        margin: 0 auto;
+        width: 600px;
+        border: 1px solid black;
+      }
+
+      .header {
+        height: 30px;
+        border-bottom: 1px solid black;
+        text-align: center;
+      }
+
+      .nav {
+        float: left;
+        width: 20%;
+        border-right: 1px solid black;
+        height: 100%;
+      }
+
+      .section {
+        float: right;
+        width: 20%;
+        border-left: 1px solid black;
+        height: 100%;
+      }
+
+      .container {
+        height: 150px;
+      }
+
+      .footer {
+        border-top: 1px solid black;
+        height: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">header</div>
+      <div class="container">
+        <div class="nav">nav</div>
+        <div class="section">section</div>
+        <div class="clear"></div>
+      </div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
